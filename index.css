@@ -1,0 +1,15 @@
+img {
+	position: absolute;
+	top: 25%;
+	left: 60%;
+	border-radius: 40%;
+	padding: 5px;
+	background-color: black;
+
+}
+
+.TextWrap {
+	float: right;
+	margin: left 10px;
+	margin-right: 10px;
+}
