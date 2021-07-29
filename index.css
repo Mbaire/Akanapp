@@ -14,3 +14,26 @@ img {
 footer{
 	text-align: center;
 }
+.keyin{
+	text-align: center;
+	position: relative;
+	font-size: 25px;
+	left: 35%;
+	width: 30%;	
+}
+label{
+	padding: 5px;
+	color: rgb(9, 17, 1);
+}
+input {
+	width: 120px;
+	height: 40px;
+	font-size: 23px;
+}
+button{
+	font-size: 25px;
+	width: 120px
+}
+
+
+
