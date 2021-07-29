@@ -35,6 +35,24 @@ var akanName = function(){
       var femaleNames=(document .getElementById("femaleGender"));
       var output=(document .getElementById("output"));
 
+      var date = new Date(year + "-" + month + "-" + day);
+      var dayBorn = date.getDay();
+
+      if (day<1 || day>31) {
+        output.style.background="aqua"
+        output.style.color="black"
+        output.innerHTML="Hey,please insert a valid date"
+      }
+
+      if (month<1 || month>12) {
+        output.style.background="aqua"
+        output.style.color="black"
+        output.innerHTML="Hey,please insert a valid month"
+      }
+        
+
+
+        
 
 
 
