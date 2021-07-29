@@ -71,23 +71,4 @@ var akanName = function(){
     
 
 
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

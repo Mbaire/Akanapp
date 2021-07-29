@@ -34,6 +34,12 @@ button{
 	font-size: 25px;
 	width: 120px
 }
+#output {
+    font-size:1.8em;
+    border:2px solid blue;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 
 
 
