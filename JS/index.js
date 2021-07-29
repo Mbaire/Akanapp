@@ -56,13 +56,19 @@ var akanName = function(){
       output.innerHTML="Hey,please insert a valid year"
     }
 
-    else if(maleGender.checked()){
+    else if(maleGender.checked){
         output.style.background="aqua"
         output.style.color="black"
         output.innerHTML="Hello" + name + "you were born on a" + daysOfTheWeek[results] + "and your Akan name is" +  maleNames[results] ;
-
-
     }
+
+     else if(femaleGender.checked){
+        output.style.background="aqua"
+        output.style.color="black"
+        output.innerHTML="Hello" + name + "you were born on a" + daysOfTheWeek[results]
+     + "and your Akan name is" + femaleNames[results] ;
+     }
+    
 
 
 
