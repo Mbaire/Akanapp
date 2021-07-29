@@ -25,6 +25,9 @@ var akanName = function(){
         "Yaa",
         "Afua",
         "Ama"
+      ];
+
+      var name
 
 
 
