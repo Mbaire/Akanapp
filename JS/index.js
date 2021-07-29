@@ -49,7 +49,21 @@ var akanName = function(){
         output.style.color="black"
         output.innerHTML="Hey,please insert a valid month"
       }
-        
+
+      if (year.toString().length !== 4){
+      output.style.background="aqua"
+      output.style.color="black"
+      output.innerHTML="Hey,please insert a valid year"
+    }
+
+    else if(maleGender.checked()){
+        output.style.background="aqua"
+        output.style.color="black"
+        output.innerHTML="Hello" + name + "you were born on a" + daysOfTheWeek[results] + "and your Akan name is" +  maleNames[results] ;
+
+
+    }
+
 
 
         
