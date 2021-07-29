@@ -36,7 +36,7 @@ var akanName = function(){
       var output=(document .getElementById("output"));
 
       var date = new Date(year + "-" + month + "-" + day);
-      var dayBorn = date.getDay();
+      var results = date.getDay();
 
       if (day<1 || day>31) {
         output.style.background="aqua"
