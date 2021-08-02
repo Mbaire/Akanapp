@@ -18,50 +18,45 @@
   <div class="jumbotron jumbotron-fluid p-3 my-3 bg-dark text-white">
     <div class="container">
       <h1>Do you know your Ghanaian name?</h1>
-      <p>Find out below.</p>
+      <p>Here’s your need-to-know guide.</p>
     </div>
   </div>
 
-  <div class="container p-3 my-3 bg-white text-dark">
-    <h1>Ghananian Akan Names</h1>
-
-    <p> Here is a short description of what the Akan Names entail.</p>
-    <p>Ghananians have a unique way of naming their children which is based on the day that a child is born </p>
-    <img class="TextWrap" src="ghana2.png" alt="Ghana flag">
-    <p>In many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on
-      which she/he was born.</p>
-    <p>In many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on
-      which she/he was born.</p>
-    <p>In many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on
-      which she/he was born.</p>
-
-
+  <div class="description ">
+    <h2>Akan Naming System</h2>
+    <p>In many parts of Ghana, newborns are given special names depending on the day they<br> are born. </p>
+    <p>Diverse ethnicities have variants and meanings as a symbol of cultural integrit<br> and ancestral affiliation.</p>
+    <p> Ashanti Twi, is a dialect of Akan and is the most
+      widely spoken language in Ghana. </p>
+    <img class=".TextWrap" src="ghana.png" alt="Ghana flag">
+    <p>Aside the fact that day names are a simple means for commonality, they are easy conversation starters.  </p>
   </div>
-  <div class="container p-3 my-3 bg-white text-dark">
-    <h3>Enter your birthdate and gender below to read your day name in Ashanti Twi, a dialect of Akan and the most
-      widely spoken language in Ghana:</h3>
-    <div class="keyin">
+  
+    <h3><strong>Get your Akan name below</strong></h3>
+    
+  </div>
+    <div class="Natalie">
       <h4><strong>Key in your birth details</strong></h4>
       <form id="myForm" class="form">
         <p id="output"></p>
         <fieldset>
-          <label></label><br>
-          <input type="text" id="NAME" class="in"  placeholder="Name">
+          <label></label><br> Name:
+          <input < type="text" id="NAME" class="in"  placeholder="Name">
         </fieldset>
         <fieldset>
-          <label></label><br>
+          <label></label><br>Date:
           <input type="number" id="DD" class="in" maxlength="2" placeholder="DD" max="31" min="01">
         </fieldset>
         <fieldset>
-          <label></label><br>
+          <label></label><br>Month:
           <input type="number" id="MM" class="in" maxlength="2" placeholder="MM" max="12" min="01">
         </fieldset>
         <fieldset>
-          <label></label><br> eg 1995
+          <label></label><br>Year:
           <input type="number" id="YY" class="in" maxlength="4" placeholder="YYYY" min="0000">
         </fieldset>
-        <input type="radio" name="gender" id="maleGender" value="male"> Male<br>
-        <input type="radio" name="gender" id="femaleGender" value="female"> Female<br>
+        <input class="form-check-input" type="radio" name="gender" id="maleGender" value="male"> Male
+        <input class="form-check-input" type="radio" name="gender" id="femaleGender" value="female"> Female<br>
         <button type="button" onclick="akanName()">Generate</button>
         <button type="clear" name="refresh">Clear</button>
       </form>
@@ -83,8 +78,9 @@
 
     <script src="JS/index.js"></script>
 </body>
-<footer><span>Akan Names<span>
+<footer> 
+  <br> <span>Akan Names<span>
       <br>
       <p>@Nat2021</p>
-
+</footer>
 </html>

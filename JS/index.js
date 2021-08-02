@@ -8,7 +8,7 @@ var akanName = function(){
         "Friday",
         "Saturday"
       ];
-      var maleNames = [
+    var maleNames = [
         "Kwasi",
         "Kwadwo",
         "Kwabena",
@@ -17,7 +17,7 @@ var akanName = function(){
         "Kofi",
         "Kwame"
       ];
-      var femaleNames = [
+    var femaleNames = [
         "Akosua",
         "Adwoa",
         "Abenaa",
@@ -31,9 +31,9 @@ var akanName = function(){
       var day= parseInt(document .getElementById("DD").value);
       var month= parseInt(document .getElementById("MM").value);
       var year= parseInt(document .getElementById("YY").value);
-      var maleNames=(document .getElementById("maleGender"));
-      var femaleNames=(document .getElementById("femaleGender"));
-      var output=(document .getElementById("output"));
+      var maleNames= (document .getElementById("maleGender"));
+      var femaleNames= (document .getElementById("femaleGender"));
+      var output= (document .getElementById("output"));
 
       var date = new Date(year + "-" + month + "-" + day);
       var results = date.getDay();
@@ -56,17 +56,16 @@ var akanName = function(){
       output.innerHTML="Hey,please insert a valid year"
     }
 
-    else if(maleGender.checked){
+     else if(maleGender.checked){
         output.style.background="aqua"
         output.style.color="black"
-        output.innerHTML="Hello" + name + "you were born on a" + daysOfTheWeek[results] + "and your Akan name is" +  maleNames[results] ;
+        output.innerHTML="Hello " + name + " you were born on a  " + daysOfTheWeek[results] + "and your Akan name is" +  maleNames[results] ;
     }
 
      else if(femaleGender.checked){
         output.style.background="aqua"
         output.style.color="black"
-        output.innerHTML="Hello" + name + "you were born on a" + daysOfTheWeek[results]
-     + "and your Akan name is" + femaleNames[results] ;
+        output.innerHTML="Hello " + name + " you were born on a  " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results] ;
      }
     
 
