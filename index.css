@@ -35,7 +35,7 @@ footer{
 }
 h2{
 	text-align: left;
-	color:green;
+	color:white;
 }
 h3{
 	text-align: center;
@@ -61,7 +61,26 @@ button{
     border:2px solid white;
     text-shadow: 2px 2px 4px #000000;
 }
-
-
+/* #myForm{
+	color: red;
+} */
+.form{
+	color: green;
+}
+#m{
+	color: yellow;
+}
+p1{
+	color: tomato;
+}
+p2{
+	color: yellow;
+}
+p3{
+	color: green;
+}
+p4{
+	color:green;
+}
 
 
